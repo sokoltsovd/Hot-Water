@@ -11,14 +11,18 @@
 		E85C84CD28047B5D0061898E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C84CC28047B5D0061898E /* ContentView.swift */; };
 		E85C84CF28047B620061898E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85C84CE28047B620061898E /* Assets.xcassets */; };
 		E85C84D228047B620061898E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85C84D128047B620061898E /* Preview Assets.xcassets */; };
+		E85C84D928047BD70061898E /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C84D828047BD70061898E /* TopView.swift */; };
+		E85C84DB28047BDC0061898E /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E85C84DA28047BDC0061898E /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E85C84C728047B5D0061898E /* Hot Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hot Water.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85C84CA28047B5D0061898E /* Hot_WaterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_WaterApp.swift; sourceTree = "<group>"; };
-		E85C84CC28047B5D0061898E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E85C84CC28047B5D0061898E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 1; };
 		E85C84CE28047B620061898E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E85C84D128047B620061898E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E85C84D828047BD70061898E /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		E85C84DA28047BDC0061898E /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				E85C84CA28047B5D0061898E /* Hot_WaterApp.swift */,
+				E85C84D828047BD70061898E /* TopView.swift */,
+				E85C84DA28047BDC0061898E /* Cell.swift */,
 				E85C84CC28047B5D0061898E /* ContentView.swift */,
 				E85C84CE28047B620061898E /* Assets.xcassets */,
 				E85C84D028047B620061898E /* Preview Content */,
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E85C84CD28047B5D0061898E /* ContentView.swift in Sources */,
+				E85C84DB28047BDC0061898E /* Cell.swift in Sources */,
+				E85C84D928047BD70061898E /* TopView.swift in Sources */,
 				E85C84CB28047B5D0061898E /* Hot_WaterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
